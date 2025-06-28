@@ -21,5 +21,11 @@ Also, a sample application to mimic multi-environment deployment.
    ```bash
    docker compose up
    ```
+This will start the application on `http://localhost:3000` for "prod", :3001 for "dev" and :3002 for "preprod".
 
-   This will start the application on `http://localhost:3000` for "prod", :3001 for "dev" and :3002 for "preprod".
+4. **To stop/start a specific environment:**
+   ```bash
+   docker compose stop dev
+   docker compose build dev --no-cache
+   docker compose up dev
+   ```
