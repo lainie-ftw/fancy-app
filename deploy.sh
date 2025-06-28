@@ -15,4 +15,4 @@ docker compose stop $env
 docker compose build $env --no-cache
 
 # Start the services for the environment
-docker compose up $env
+docker compose up -d $env
