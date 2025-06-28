@@ -1,0 +1,14 @@
+{
+  "name": "fancy-app",
+  "version": "1.0.0",
+  "description": "A fancy application",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p ${PORT:-3000}"
+  },
+  "author": "Laine Smith",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
